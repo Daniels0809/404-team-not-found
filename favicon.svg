@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Fondo con gradiente azul -->
+  <rect width="100" height="100" rx="22" fill="url(#grad)"/>
+  <!-- Círculo decorativo superior izquierdo -->
+  <circle cx="20" cy="20" r="8" fill="white" opacity="0.3"/>
+  <!-- Círculo decorativo inferior derecho -->
+  <circle cx="80" cy="80" r="6" fill="white" opacity="0.2"/>
+  <!-- Texto 404 -->
+  <text x="50" y="68" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">404</text>
+  <!-- Línea decorativa debajo del texto -->
+  <line x1="25" y1="75" x2="75" y2="75" stroke="white" stroke-width="3" opacity="0.5" stroke-linecap="round"/>
+</svg>
+
